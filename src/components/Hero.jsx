@@ -10,7 +10,7 @@ export default function Hero(){
             {/* hero main container */}
             <div className="relative px-10 flex flex-col gap-4 mb-6 md:gap-6 md:mb-8 lg:gap-10 lg:mb-10">
                 <FadeInSection>
-                    <div className="flex items-center justify-center gap-2 max-w-xl md:mx-auto">
+                    <div className="flex items-center justify-center gap-2 max-w-2xl md:mx-auto">
                         <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
                         <p className="text-accent text-sm font-bold font-sans uppercase tracking-widest">
                             {siteconfig.heroBusinessName} · {siteconfig.heroBusinessLocation} — {siteconfig.heroBusinessStatus}
@@ -36,8 +36,8 @@ export default function Hero(){
             {/* cta buttons */}
             <FadeInSection delay={0.4}>
                 <div id="ctaContainer" className="relative font-sans flex flex-col justify-center items-center gap-4 md:flex-row">
-                    <Button btnText={siteconfig.heroCtaText1} btnUrl={"#"} variant="filled"/>
-                    <Button btnText={siteconfig.heroCtaText2} btnUrl={"#"} variant="outline"/>
+                    <Button btnText={siteconfig.heroCtaText1} btnUrl={"#services"} variant="filled"/>
+                    <Button btnText={siteconfig.heroCtaText2} btnUrl={"#contact"} variant="outline"/>
                 </div>
             </FadeInSection>
         </div>

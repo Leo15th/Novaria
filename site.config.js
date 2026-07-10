@@ -8,138 +8,138 @@ export const siteconfig = {
     highlight: "#8B7355",  // Muted Bronze (hover states, dividers)
     },
     // nav start
-    logoText: "Exon Sports",//logo text
+    logoText: "Novaria",//logo text
     logImg: "./logo.svg",//logo img
     navlinks: [
-        "Home","About Us", "Products","Experiences", "Gallery","Reviews", "Contact"
+        "Home","About Us", "Services","Gallery","Reviews", "Contact"
         //nav links
     ],
     // nav end
     // hero start
     heroImg: "./heroImg.webp",
-    heroBusinessName: "Exon Sports",
+    heroBusinessName: "Novaria",
     heroBusinessLocation: "Thailand",
-    heroBusinessStatus: "Manufacturer & Wholesaler",
-    heroShortBrandPromise: "Built for the Fight.",
-    heroTitle: "Premium Boxing Equipment, Made to Perform",
-    heroPara: "We manufacture boxing gloves, shinguards, and punching bags for gyms, shops, and wholesalers worldwide.",
-    heroCtaText1: "View Products",
+    heroBusinessStatus: "Lottery • Food Delivery • Cargo to Myanmar",
+    heroShortBrandPromise: "Trusted by the Community.",
+    heroTitle: "Reliable Services for the Burmese Community in Thailand",
+    heroPara: "We help you buy lottery tickets, order food delivery, and send goods safely to Myanmar — all from one trusted place.",
+    heroCtaText1: "Our Services",
     heroCtaText2: "Contact Us",
     // hero end
     // story start
-    storyTitle: "The Story of Exon Sports",
-    storyHeroImgUrl: "./shipping.jpg",
-    storyHeroImgAlt: "Exon Sports products being packed and shipped to gyms and wholesalers",
-    storyPara1: "Exon Sports began with a simple idea: to manufacture boxing equipment that fighters and gyms could truly rely on.",
-    storyPara2: "What started as a small workshop has grown into a trusted manufacturer, supplying gyms, shops, and wholesalers around the region with gear built to perform.",
-    storyPara3: "From production to delivery, every order is packed and shipped with the same care and attention that goes into making the gear itself.",
-    storyPara4: "Made to train. Built to last.",
+    storyTitle: "The Story of Novaria",
+    storyHeroImgUrl: "./story.jpg",
+    storyHeroImgAlt: "Leo and Nora, the founders of Novaria, serving the Burmese community in Thailand",
+    storyPara1: "Novaria began with Leo and Nora, a couple who spent 3 years working in F&B in Phuket — waitstaff, bartending, and management.",
+    storyPara2: "After returning to Myanmar and then settling in Thailand with their daughter, they saw how hard it was for the Burmese community here to find services they could truly trust.",
+    storyPara3: "Novaria was built to fill that gap — honest lottery sales, dependable food delivery, and safe cargo service to Myanmar, all run by people who understand the community because they're part of it.",
+    storyPara4: "Built by us. Trusted by you.",
     storyCtaText: "Learn More About Us",
     // story end
     // menu start
-    menuTitle: "Our Products",
-    menuSubtitle: "Gear Built for Gyms, Fighters, and Wholesalers",
+    menuTitle: "Our Services",
+    menuSubtitle: "Everything You Need, In One Trusted Place",
     menuDishes : [
                 {
-                    name: "Pro Boxing Gloves",
-                    description: "Durable, high-density foam padding with reinforced stitching for training and competition use.",
+                    name: "Thai Lottery — Retail & Wholesale",
+                    description: "Buy Thai lottery tickets, retail or wholesale, quickly and safely with clear updates on results.",
                     image: "dish1.jpg",
-                    price: "1999"
+                    price: "[starting price]"
                 },
                 {
-                    name: "Shinguards",
-                    description: "Lightweight yet impact-resistant shinguards designed for Muay Thai and kickboxing training.",
+                    name: "Myanmar Food Sourcing",
+                    description: "Authentic Myanmar food sourced and delivered for Burmese people living in Thailand.",
                     image: "dish2.jpg",
-                    price: "3499"
+                    price: "[delivery fee]"
                 },
                 {
-                    name: "Punching Bags",
-                    description: "Heavy-duty punching bags built for daily gym use, available in multiple sizes and weights.",
+                    name: "Thai Goods & Cargo to Myanmar",
+                    description: "We purchase Thai goods on your behalf and ship them safely as cargo to customers living in Myanmar.",
                     image: "dish3.jpg",
-                    price: "4999"
+                    price: "[price per kg]"
                 },
                 {
-                    name: "Training Pads",
-                    description: "Focus mitts and Thai pads crafted for coaches and trainers who demand reliable gear.",
+                    name: "Advice for Coming to Thailand",
+                    description: "General guidance for people from Myanmar planning to come to Thailand.",
                     image: "dish4.jpg",
-                    price: "999"
+                    price: "[free / consultation]"
                 }
             ],
-    menuCtaText: "View Full Catalog",
+    menuCtaText: "Message Us to Order",
     // menu end
     // features start
-    featuresTitle: "Why Choose Us",
-    featuresSubtitle: "Trusted by Gyms and Wholesalers Alike",
+    featuresTitle: "Why Choose Novaria",
+    featuresSubtitle: "Built by the Community, for the Community",
     features: [
         {
-            title: "Manufacturer Direct",
-            description: "We manufacture our own equipment, cutting out the middleman for better pricing and quality control."
+            title: "Run by Burmese, for Burmese",
+            description: "We understand the community's needs because we're part of it — no language barrier, no confusion."
         },
         {
-            title: "Wholesale Ready",
-            description: "Bulk orders for gyms, shops, and distributors with flexible pricing and reliable turnaround."
+            title: "Honest & Reliable",
+            description: "Clear pricing, honest communication, and consistent service you can count on every time."
         },
         {
-            title: "Durable Materials",
-            description: "Every product is built with high-quality materials designed to withstand daily training use."
+            title: "All-in-One Service",
+            description: "Lottery, food, and cargo — everything handled in one place instead of juggling multiple providers."
         },
         {
-            title: "Custom Branding",
-            description: "Private label and custom branding options available for gyms and retail partners."
+            title: "Personal Support",
+            description: "Message us directly and get a real reply from real people, not a faceless company."
         }
     ],
     // features end
     // gallery start
-    galleryTitle: "Gallery",
-    galleryPhotos: [
-        { imageUrl: "156973_0.jpg", imageAlt: "Black and gold Exon Sports boxing gloves" },
-        { imageUrl: "157002_0.jpg", imageAlt: "Blue and silver focus mitts for training" },
-        { imageUrl: "157005_0.jpg", imageAlt: "Black shinguards ready for shipment" },
-        { imageUrl: "157007_0.jpg", imageAlt: "Boxing gloves packed for wholesale order" },
-        { imageUrl: "157013_0.jpg", imageAlt: "Championship belts crafted by Exon Sports" },
-        { imageUrl: "157014_0.jpg", imageAlt: "Black and gold competition headgear" }
-    ],
-    galleryCtaText: "See More Photos",
+    // galleryTitle: "Gallery",
+    // galleryPhotos: [
+    //     { imageUrl: "gallery1.jpg", imageAlt: "Novaria lottery ticket service" },
+    //     { imageUrl: "gallery2.jpg", imageAlt: "Novaria food delivery order ready for dispatch" },
+    //     { imageUrl: "gallery3.jpg", imageAlt: "Cargo packages prepared for shipment to Myanmar" },
+    //     { imageUrl: "gallery4.jpg", imageAlt: "Novaria team packing an order" },
+    //     { imageUrl: "gallery5.jpg", imageAlt: "Customer receiving a Novaria delivery" },
+    //     { imageUrl: "gallery6.jpg", imageAlt: "Novaria branded packaging" }
+    // ],
+    // galleryCtaText: "See More Photos",
     // reviews start
-    reviewsTitle: "What Our Partners Say",
-    reviewsSubtitle: "Trusted by Gyms and Retailers Across the Region",
+    reviewsTitle: "What Our Customers Say",
+    reviewsSubtitle: "Trusted by the Burmese Community in Thailand",
     reviews: [
         {
-            name: "[Gym Owner Name]",
+            name: "Thiha Aung",
             rating: 5,
-            quote: "The quality of the gloves is outstanding, and our members have noticed the difference immediately."
+            quote: "Fast delivery and very honest with pricing. I trust them completely."
         },
         {
-            name: "[Shop Owner Name]",
+            name: "Thu Zar",
             rating: 5,
-            quote: "Reliable wholesale partner — fast turnaround and consistent quality on every order."
+            quote: "Sent cargo to my family in Myanmar and everything arrived safely and on time."
         },
         {
-            name: "[Distributor Name]",
-            rating: 4,
-            quote: "Great pricing for bulk orders and the equipment holds up well under heavy daily use."
+            name: "Zin Mar",
+            rating: 5,
+            quote: "Easy to order through Messenger and they always reply quickly."
         }
     ],
     // reviews end
     // contact start
     contactTitle: "Get In Touch",
-    contactSubtitle: "For Wholesale Inquiries, Bulk Orders, and Partnerships",
-    contactPhone: "[+66 00 000 0000]",
-    contactEmail: "xexonsportwear@gmail.com",
-    contactAddress: "[123 Street Name, City, Country]",
+    contactSubtitle: "For Lottery, Food Orders, and Cargo Inquiries",
+    contactPhone: "094 940 7681",
+    contactEmail: "pwaiag2023@gmail.com",
+    contactAddress: "Mae Sai, Thailand",
     contactHours: [
-        { day: "Mon - Fri", time: "9:00 AM - 6:00 PM" },
-        { day: "Sat", time: "9:00 AM - 1:00 PM" }
+        { day: "Mon - Sat", time: "8:00 AM - 11:30 PM" },
+        { day: "Sun", time: "11:00 AM - 11:00 PM" }
     ],
     contactCtaText: "Send Message",
     // contact end
     // footer start
-    footerTagline: "Boxing equipment manufacturer for gyms, shops, and wholesalers.",
+    footerTagline: "Lottery, food delivery, and cargo to Myanmar — trusted by the Burmese community in Thailand.",
     footerSocials: [
-        { name: "Instagram", url: "#" },
-        { name: "Facebook", url: "#" },
+        { name: "Facebook", url: "https://web.facebook.com/profile.php?id=61591854628681" },
+        { name: "Whatsapp", url: "#" },
         { name: "Line", url: "#" }
     ],
-    footerCopyright: "© 2026 Exon Sports. All rights reserved.",
+    footerCopyright: "© 2026 Novaria. All rights reserved.",
     // footer end
 }

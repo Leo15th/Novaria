@@ -34,7 +34,7 @@ export default function OurMenu(){
             <div className="flex justify-center items-center mt-10">
                 <Button 
                     btnText={siteconfig.menuCtaText}
-                    btnUrl={"#"}
+                    btnUrl={"#contact"}
                 />
             </div>
             </FadeInSection>

@@ -2,8 +2,7 @@ import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import Story from "./components/Story"
 import OurMenu from "./components/OurMenu"
-import Features from "./components/Features"
-import Gallery from "./components/Gallery"
+// import Gallery from "./components/Gallery"
 import Reviews from "./components/Reviews"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
@@ -19,17 +18,13 @@ export default function App() {
         <Story/>
       </section>
 
-      <section id="menu" className="scroll-mt-18">
+      <section id="services" className="scroll-mt-18">
         <OurMenu/>
       </section>
 
-      <section id="experiences" className="scroll-mt-18">
-        <Features/>
-      </section>
-
-      <section id="gallery" className="scroll-mt-18">
+      {/* <section id="gallery" className="scroll-mt-18">
         <Gallery/>
-      </section>
+      </section> */}
 
       <section id="reviews" className="scroll-mt-18">
         <Reviews/>
